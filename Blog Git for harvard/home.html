@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodePath Chronicles | Kauã's Journey to Harvard</title>
+  <link rel="stylesheet" href="css/github-dark.css">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Animated Background -->
+  <div class="particles-background" id="particles-js"></div>
+
+  <!-- Header -->
+  <header class="dynamic-header">
+    <div class="container">
+      <div class="header-content">
+        <h1 class="gradient-text">CodePath Chronicles</h1>
+        <p class="subtitle">From São Paulo to Harvard through Code</p>
+        <div class="header-stats">
+          <div class="stat-box">
+            <span class="stat-number" id="days-coding">0</span>
+            <span class="stat-label">Days Coding</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-number" id="projects-count">0</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-number" id="blog-posts">0</span>
+            <span class="stat-label">Blog Posts</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="smart-nav">
+    <div class="container">
+      <div class="nav-container">
+        <a href="#" class="logo">CPC</a>
+        <div class="nav-links">
+          <a href="index.html" class="active"><i class="fas fa-home"></i> Home</a>
+          <a href="blog/"><i class="fas fa-book-open"></i> Blog</a>
+          <a href="projects/"><i class="fas fa-code"></i> Projects</a>
+          <a href="about.html"><i class="fas fa-user"></i> About</a>
+          <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+        </div>
+        <div class="nav-actions">
+          <button id="theme-toggle" class="icon-button">
+            <i class="fas fa-moon"></i>
+          </button>
+          <button id="search-toggle" class="icon-button">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+      <div class="search-bar" id="search-bar">
+        <input type="text" placeholder="Search blog posts, projects...">
+        <button><i class="fas fa-search"></i></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container">
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-content">
+        <h2>Building My Future <span class="typed-text"></span></h2>
+        <p class="hero-description">Documenting my journey from academic struggles to Harvard CS aspirant through code, projects, and hard-earned lessons.</p>
+        <div class="hero-cta">
+          <a href="blog/" class="cta-button primary">
+            <i class="fas fa-book-reader"></i> Read Blog
+          </a>
+          <a href="projects/" class="cta-button secondary">
+            <i class="fas fa-laptop-code"></i> View Projects
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="code-window">
+          <div class="window-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="title">journey.js</span>
+          </div>
+          <pre class="code-content"><code class="language-javascript">// My coding journey
+class HarvardApplication {
+  constructor() {
+    this.name = "Kauã Souza";
+    this.age = 17;
+    this.goal = "CS at Harvard";
+    this.skills = ["JavaScript", "Python", "Web Dev"];
+  }
+
+  async apply() {
+    while (!accepted) {
+      await this.buildProjects();
+      await this.writeBlogPosts();
+      await this.learnNewTech();
+    }
+    return "Success!";
+  }
+}</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section class="features-section">
+      <h2 class="section-title">Why Follow My Journey</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-heartbeat"></i>
+          </div>
+          <h3>Honest Progress</h3>
+          <p>Raw documentation of successes and failures - no sugarcoating</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <h3>Harvard Focus</h3>
+          <p>Specific strategies for college applications through CS</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-hands-helping"></i>
+          </div>
+          <h3>Beginner-Friendly</h3>
+          <p>Tutorials that start from absolute basics</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recent Activity -->
+    <section class="activity-section">
+      <h2 class="section-title">Recent Activity</h2>
+      <div class="activity-tabs">
+        <button class="tab-button active" data-tab="blog">Latest Posts</button>
+        <button class="tab-button" data-tab="projects">Recent Projects</button>
+        <button class="tab-button" data-tab="milestones">Key Milestones</button>
+      </div>
+      <div class="tab-content active" id="blog-tab">
+        <!-- Dynamically loaded -->
+      </div>
+      <div class="tab-content" id="projects-tab">
+        <!-- Dynamically loaded -->
+      </div>
+      <div class="tab-content" id="milestones-tab">
+        <!-- Dynamically loaded -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="smart-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <h3>CodePath Chronicles</h3>
+          <p>A 17-year-old's journey from Brazil to Harvard through code.</p>
+          <div class="social-links">
+            <a href="https://github.com/Kauadsouza" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="blog/">Blog Archive</a></li>
+            <li><a href="projects/">Project Portfolio</a></li>
+            <li><a href="about.html">My Story</a></li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <h3>Stay Updated</h3>
+          <form id="newsletter-form">
+            <input type="email" placeholder="Your email" required>
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 Kauã Souza. All rights reserved.</p>
+        <p>Made with <i class="fas fa-heart"></i> and JavaScript</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+  <script src="home.js"></script>
+</body>
+</html>

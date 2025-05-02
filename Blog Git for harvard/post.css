@@ -1,0 +1,129 @@
+/* Post Layout */
+.post-container {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 3rem;
+    padding: 2rem 0;
+  }
+  
+  .post-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Post Header */
+  .post-header {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--gh-border);
+    padding-bottom: 1.5rem;
+  }
+  
+  .post-meta {
+    display: flex;
+    gap: 1rem;
+    color: var(--gh-text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .post-title {
+    font-size: 2.5rem;
+    margin: 0.5rem 0;
+    line-height: 1.2;
+  }
+  
+  .post-tags {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .tag {
+    font-size: 0.8rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 2rem;
+  }
+  
+  .tag.personal {
+    background-color: rgba(88, 166, 255, 0.15);
+    color: var(--gh-accent);
+  }
+  
+  .tag.motivation {
+    background-color: rgba(63, 185, 80, 0.15);
+    color: var(--gh-success);
+  }
+  
+  /* Post Body */
+  .post-body {
+    line-height: 1.8;
+  }
+  
+  .post-body h2 {
+    margin-top: 2.5rem;
+    font-size: 1.75rem;
+  }
+  
+  .post-body pre {
+    background: var(--gh-bg-secondary);
+    border-radius: 6px;
+    padding: 1rem;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+  }
+  
+  .post-body code {
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    font-size: 0.9em;
+  }
+  
+  /* Author Card */
+  .author-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 3rem 0;
+    padding: 1.5rem;
+    background: var(--gh-bg-secondary);
+    border-radius: 8px;
+  }
+  
+  .author-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Table of Contents */
+  .table-of-contents {
+    position: sticky;
+    top: 2rem;
+  }
+  
+  .table-of-contents ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0 0 0;
+  }
+  
+  .table-of-contents li {
+    margin: 0.5rem 0;
+  }
+  
+  .table-of-contents a {
+    color: var(--gh-text-secondary);
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive */
+  @media (max-width: 992px) {
+    .post-container {
+      grid-template-columns: 1fr;
+    }
+    
+    .post-sidebar {
+      order: -1;
+      margin-bottom: 2rem;
+    }
+  }

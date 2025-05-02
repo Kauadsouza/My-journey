@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post Title | CodePath Chronicles</title>
+  <link rel="stylesheet" href="../css/github-dark.css">
+  <link rel="stylesheet" href="post.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github-dark.min.css">
+</head>
+<body>
+  <nav class="post-nav">
+    <div class="container">
+      <a href="../blog/" class="back-button">
+        ← Back to Blog
+      </a>
+      <div class="post-actions">
+        <button id="edit-post" class="icon-button" aria-label="Edit post">
+          <svg><!-- Edit icon --></svg>
+        </button>
+        <button id="share-post" class="icon-button" aria-label="Share post">
+          <svg><!-- Share icon --></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="post-container">
+    <article class="post-content">
+      <header class="post-header">
+        <div class="post-meta">
+          <span class="post-date">May 15, 2024</span>
+          <span class="post-reading-time">5 min read</span>
+        </div>
+        <h1 id="post-title">How Repeating a Grade Fueled My Coding Journey</h1>
+        <div class="post-tags">
+          <span class="tag personal">Personal</span>
+          <span class="tag motivation">Motivation</span>
+        </div>
+      </header>
+
+      <div class="post-body" id="post-body">
+        <!-- Markdown content will be rendered here -->
+        <p>This is where the post content would appear. The text is rendered from Markdown with syntax highlighting for code blocks.</p>
+        
+        <pre><code class="language-javascript">// Example code block
+function helloWorld() {
+  console.log("My setback became my superpower!");
+}</code></pre>
+        
+        <h2>Turning Failure into Fuel</h2>
+        <p>When I repeated 10th grade, I discovered three key lessons...</p>
+      </div>
+
+      <footer class="post-footer">
+        <div class="author-card">
+          <img src="../assets/author.jpg" alt="Kauã Souza" class="author-image">
+          <div class="author-info">
+            <h3>Kauã Souza</h3>
+            <p>17yo Brazilian developer aspiring to Harvard CS</p>
+          </div>
+        </div>
+        <div class="post-navigation">
+          <a href="#" class="prev-post">← Previous: My First Python Project</a>
+          <a href="#" class="next-post">Next: Why I Chose JavaScript →</a>
+        </div>
+      </footer>
+    </article>
+
+    <aside class="post-sidebar">
+      <div class="table-of-contents" id="toc">
+        <h3>Contents</h3>
+        <ul><!-- JS will populate this --></ul>
+      </div>
+      <div class="related-posts">
+        <h3>Related Posts</h3>
+        <ul>
+          <li><a href="#">Learning to Code with No Resources</a></li>
+          <li><a href="#">How I Stay Motivated</a></li>
+        </ul>
+      </div>
+    </aside>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.2.12/marked.min.js"></script>
+  <script src="post.js"></script>
+</body>
+</html>
