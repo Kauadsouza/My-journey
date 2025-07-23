@@ -189,3 +189,34 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
+// Toggle Theme Functionality
+document.addEventListener('DOMContentLoaded', function() {
+  const toggleSwitch = document.querySelector('.cb');
+  const currentTheme = localStorage.getItem('theme');
+
+  // Aplicar tema salvo
+  if (currentTheme === 'light-mode') {
+    document.body.classList.add('light-mode');
+    toggleSwitch.checked = true;
+    // Atualizar visual do botão
+    document.querySelector('.left').style.color = 'rgb(206, 206, 206)';
+    document.querySelector('.right').style.color = '#487bdb';
+  }
+
+  // Alternar temas
+  toggleSwitch.addEventListener('change', function(e) {
+    if (e.target.checked) {
+      document.body.classList.add('light-mode');
+      localStorage.setItem('theme', 'light-mode');
+      // Atualizar cores do botão
+      document.querySelector('.left').style.color = 'rgb(206, 206, 206)';
+      document.querySelector('.right').style.color = '#487bdb';
+    } else {
+      document.body.classList.remove('light-mode');
+      localStorage.setItem('theme', '');
+      // Resetar cores do botão
+      document.querySelector('.left').style.color = '#373737';
+      document.querySelector('.right').style.color = 'rgb(206, 206, 206)';
+    }
+  });
+});
