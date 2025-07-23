@@ -1,80 +1,108 @@
-<h1 align="center">👋 Hello, I'm Kauã Souza (Souzazz)</h1>
+<h1 align="center">🌐 Null Forge — Empowering Beginners Through Code</h1>
 
 <p align="center">
-  🧠 Future Computer Scientist | 🎓 High School Student | 🌍 Brazil <br>
-  💻 Founder of <b>Null Forge</b> | Passionate about coding, teaching, and global impact
+  💡 A social-impact project founded by <b>Kauã Souza</b> (Souzazz)<br>
+  🚀 From Uberlândia, Brazil — to the world, one line of code at a time
 </p>
 
 ---
 
-## 🧠 About Me
+## 📌 About This Repository
 
-Welcome to my profile!  
-I'm a determined student with a big dream — to study **Computer Science** at universities like **Harvard**, **MIT**, or **Oxford**, and use technology to **transform the world**.
+This repository hosts the **source code, materials, and documentation** behind **Null Forge** — a **free programming education initiative** created to empower beginners, especially underrepresented students in Brazil, with skills in **web development** and **computer science**.
 
-Currently based in **Uberlândia, Brazil**, I founded **Null Forge**, a project focused on **free programming education** for beginners. I believe that **code can change lives**, and I’m building my journey one project at a time.
-
-💡 **Fun fact:** Repeating a school year pushed me to grow. Setbacks are fuel for comebacks. 🚀
+Our mission: **"Teach, impact, and inspire."**
 
 ---
 
-## 📌 Summary
+## 👨‍💻 Who I Am
 
-- 🎓 High School Student @ Dom Bosco (2nd Year)
-- 💡 Founder of **Null Forge**
-- 💻 Focused on **Front-End (HTML, CSS, JS)** & learning **Python**
-- ✝️ Volunteer at church
-- 📚 Taking English & Math courses outside school
-- 🧑‍🏫 Planning to teach coding to classmates & community
-- 🌍 Goal: Study abroad and use tech to make global impact
+My name is **Kauã Souza**, a high school student and aspiring Computer Scientist from **Uberlândia, Brazil**.
 
----
+I’m currently:
 
-## 🛠 Technologies & Tools
+- 🎓 A 2nd-year student at Dom Bosco High School  
+- 💻 Learning **HTML, CSS, JS**, and diving into **Python & React**  
+- ✝️ An active church volunteer  
+- 📚 Taking **English** and **Math** courses outside of school  
+- 🧠 Focused on growing **Null Forge** as a platform for impact
 
-<p align="left">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</p>
+Despite having repeated a school year, I turned this challenge into motivation to aim higher — my ultimate goal is to study **Computer Science at Harvard**, **MIT**, or **Oxford**, and use tech as a tool to solve global problems.
 
 ---
 
-## 📚 Currently Learning
+## 🚀 What is Null Forge?
 
-- 🔥 **React**, **Django**, and back-end development
-- 🧮 Advanced **Math** and **Algorithms**
-- 📖 English fluency for international study
-- 👨‍💻 CS fundamentals & real-world project experience
+**Null Forge** is a platform designed to **democratize access to programming knowledge**, especially for students in public schools or underserved areas in Brazil. Our belief is simple:
 
----
+> "A single line of code can change a life."
 
-## 🎯 Aspirations
+Through lessons, workshops, and open-source resources, Null Forge aims to:
 
-- 🏛️ Get into **Harvard**, **MIT**, or **Oxford** to study **Computer Science**
-- 🧑‍🏫 Help beginners learn to code through Null Forge
-- 🌎 Use tech for social impact and build global solutions
+- 💻 Teach the **fundamentals of programming**
+- 📚 Provide **free, high-quality educational content**
+- 🌍 Inspire students to build solutions for real-world problems
+- 🧑‍🏫 Encourage **peer-to-peer teaching** and community building
 
 ---
 
-## 🤝 Collaborate With Me
+## 📂 What You'll Find Here
 
-I’m open to:  
-- ✅ Open-source contributions (especially education/impact)  
-- 🧠 Hackathons & student challenges  
-- 🎓 Learning & mentoring opportunities  
+This repository includes:
+
+- 📁 Source code of beginner-friendly projects
+- 📖 Curriculums and lesson plans
+- 🧠 Mini challenges and coding exercises
+- 📊 Roadmaps and guides for self-learners
+- 💬 Future: Translations, accessibility improvements & student-led contributions
 
 ---
 
-## 📫 Contact
+## 🌟 Why I Built This
 
-- 📧 Email: [kauadsouza@gmail.com](mailto:kauadsouza@gmail.com)  
+As a student in Brazil who dreams big, I’ve often felt the **gap in access** to high-quality tech education. Null Forge is my way of:
+
+- Giving back to my community
+- Creating opportunity where it often doesn’t exist
+- Proving that you don’t need money to learn — just curiosity, internet, and a mentor
+
+This project is **deeply personal**. It represents my belief that **education is the strongest code we can write to change the world.**
+
+---
+
+## 🎯 Vision for the Future
+
+With Null Forge, I plan to:
+
+- 📍 Offer free in-person and online coding classes
+- 🧑‍🏫 Train other students to become mentors and educators
+- 🌎 Expand the initiative across Brazil (and maybe beyond!)
+- 🔗 Collaborate with international programs & universities
+- 📚 Build a real-world portfolio to support my application to **Harvard** and similar institutions
+
+---
+
+## 🤝 How You Can Support
+
+I'm looking for:
+
+- ✅ Mentorship and feedback on my journey  
+- 🌐 Collaborators who care about education & impact  
+- 🏫 Institutions interested in partnerships or support  
+- ⭐ GitHub stars and visibility to inspire others  
+
+If you're reading this from **Harvard**, **MIT**, **Oxford**, or anywhere with a heart for impact — I’d love to connect.
+
+---
+
+## 📬 Contact
+
+- ✉️ Email: [kauadsouza@gmail.com](mailto:kauadsouza@gmail.com)  
 - 🔗 LinkedIn: [linkedin.com/in/kaua-diniz-0888b4261](https://linkedin.com/in/kaua-diniz-0888b4261)  
-- 🧍‍♂️ Pronouns: He/Him (Ele/Dele)
+- 🌐 Portfolio (soon): [nullforge.dev](https://nullforge.dev)  
+- 🧍 Pronouns: He/Him (Ele/Dele)
 
 ---
 
-<p align="center"><i>“From Brazil to the world — one line of code at a time.”</i></p>
+<p align="center"><i>“Coding isn't just about machines — it's about people.”</i><br>
+<i>— Kauã Souza, Founder of Null Forge</i></p>
