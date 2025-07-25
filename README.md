@@ -99,7 +99,7 @@ If you're reading this from **Harvard**, **MIT**, **Oxford**, or anywhere with a
 
 - ✉️ Email: [kauadsouza@gmail.com](mailto:kauadsouza@gmail.com)  
 - 🔗 LinkedIn: [linkedin.com/in/kaua-diniz-0888b4261](https://linkedin.com/in/kaua-diniz-0888b4261)  
-- 🌐 Portfolio (soon): [nullforge.dev](https://nullforge.dev)  
+- 🌐 Portfolio (soon): [nullforge.academy](https://kauadsouza.github.io/Null-Forge/)  
 - 🧍 Pronouns: He/Him (Ele/Dele)
 
 ---
